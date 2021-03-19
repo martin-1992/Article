@@ -30,7 +30,7 @@
 
 >https%3A%2F%2Fqq.jd.com%2Fnew%2Fqq%2Fcallback.action%3Fview%3Dnull%26uuid%3Dcc50e8e814b74fcbb333e1d77e67ad83/callback?code=12345
 
-　　京东收到授权码后，将授权码 response_type、重定向 URI、client_id 和 client_id 对应的密码，再次向 QQ 的认证服务器申请令牌。QQ 认证服务器核对 response_type、redirect_uri、client_id 和 client_id 对应的密码，根据授权码来发放访问令牌（access token）和更新令牌（refresh token）。授权码的授权程度不同，令牌的权限也不同。<r />
+　　京东收到授权码后，将授权码 response_type、重定向 URI、client_id 和 client_id 对应的密码，再次向 QQ 的认证服务器申请令牌。QQ 认证服务器核对 response_type、redirect_uri、client_id 和 client_id 对应的密码，根据授权码来发放访问令牌（access token）和更新令牌（refresh token）。授权码的授权程度不同，令牌的权限也不同。<br />
 　　京东拿到令牌后，会向 QQ 的资源服务器申请获取资源。比如用户授权的是获取 QQ 的个人信息，于是京东的令牌 access token，就可以从 QQ 的资源服务器获取到 QQ 的个人信息。至此，京东获取到 QQ 的个人信息，依据此创建一个京东账号进行登录。
 
 ### 总结
